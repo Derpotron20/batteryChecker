@@ -36,7 +36,7 @@ while True:
         if not notified:
             notification.notify(
                 title = 'Battery Percentage',
-                message = 'Over 80, recommend unplugging',
+                message = 'Over 80%, recommend unplugging',
                 app_icon = 'Battery Symbol.ico',
                 timeout = wait,
             )
@@ -46,7 +46,7 @@ while True:
         if not notified:
             notification.notify(
                 title = 'Battery Percentage',
-                message = 'Under 20, recommend plugging in',
+                message = 'Under 20%, recommend plugging in',
                 app_icon = 'Battery Symbol.ico',
                 timeout = wait,
             )
